@@ -3,12 +3,8 @@ import { Util } from "./Util.js";
 import { SudokuUtil } from "./SudokuUtil.js";
 
 
-
-
-const charFreq = new Array(26).fill(0);
 const Row = 9, Col = 9;
 const val = 0;
-// updates board size
 const board = Array.from(Array(Row), () => Array(Col).fill(val));
 // console.log(board);
 
